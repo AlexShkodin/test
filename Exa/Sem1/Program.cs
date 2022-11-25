@@ -15,8 +15,10 @@ int value2 = Convert.ToInt32(inputValue2);
 if (value1 > value2)
 {
     System.Console.WriteLine($"Из введенных Вами чисел {value1} и {value2} максимальным является {value1}, а минимальным {value2}");
-    // int higer = value1;
-    // int lover = value2;
+}
+else if (value1==value2)
+{
+    System.Console.WriteLine($"Введенные Вами числа {value1} и {value2} равны");
 }
 else
 {
